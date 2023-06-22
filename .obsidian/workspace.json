@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.2 Schwarz Framework.md",
+                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.2 Schwarz Framework.md",
+                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.2 Schwarz Framework.md",
+                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.2 Schwarz Framework.md"
+                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md"
               }
             }
           }
@@ -148,8 +148,19 @@
   },
   "active": "424ed9e348035a96",
   "lastOpenFiles": [
-    "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.1 Hybrid Formulations.md",
+    "Domain Decomposition Methods/Chapter3 Shur Complement and Iterative Substructuring Algorithms/3.1 Background.md",
+    "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
+    "Domain Decomposition Methods/Chapter3 Shur Complement and Iterative Substructuring Algorithms",
     "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.2 Schwarz Framework.md",
+    "Domain Decomposition Methods/src/Chapter2/MultisubdomainDecompositions.png",
+    "Domain Decomposition Methods/src/Chapter2/Snipaste_2023-06-11_15-55-30.png",
+    "Domain Decomposition Methods/src/Chapter2",
+    "Domain Decomposition Methods/src/新建文件夹",
+    "Domain Decomposition Methods/src/Snipaste_2023-06-11_15-55-30.png",
+    "Domain Decomposition Methods/src/Chapter1/Snipaste_2023-06-11_15-55-30.png",
+    "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms",
+    "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/Untitled",
+    "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.1 Hybrid Formulations.md",
     "1.1 Hybrid Formulations![[BoundarySegments.png.md",
     "1.2 Schwarz Framework^.md",
     "Domain Decomposition Methods/src/Chapter1/BoundarySegments.png",
@@ -161,16 +172,11 @@
     "Domain Decomposition Methods/Chapter1 Decomposition Frameworks",
     "Domain Decomposition Methods",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.3 ILU Factorization Preconditioners.md",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 11 Parallel Implementation",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.2 Jacobi, SOR and SSOR Preconditioners.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.1 Introduction.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra/1.10 Nonnegative Matrices, M-Matrices.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra/1.3 Types of Matrices.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra/1.8 Canonical Forms of Matrices.md",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra/1.1 Matrices.md",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems",
-    "Matrix Computation"
+    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra/1.1 Matrices.md"
   ]
 }
