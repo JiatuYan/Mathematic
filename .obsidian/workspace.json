@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
+                "file": "Papers/Immersed Boundary Method/Mittal 2005 Immersed Boundary Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
+                "file": "Papers/Immersed Boundary Method/Mittal 2005 Immersed Boundary Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
+                "file": "Papers/Immersed Boundary Method/Mittal 2005 Immersed Boundary Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md"
+                "file": "Papers/Immersed Boundary Method/Mittal 2005 Immersed Boundary Methods.md"
               }
             }
           }
@@ -148,8 +148,17 @@
   },
   "active": "424ed9e348035a96",
   "lastOpenFiles": [
-    "Domain Decomposition Methods/Chapter3 Shur Complement and Iterative Substructuring Algorithms/3.1 Background.md",
+    "Papers/Immersed Boundary Method/ImmsedBoundary.png",
+    "Papers/Immersed Boundary Method/Mittal 2005 Immersed Boundary Methods.md",
+    "src/Untitled.md",
+    "src/Untitled",
+    "src",
+    "Domain Decomposition Methods/src/ImmsedBoundary 1.png",
+    "Domain Decomposition Methods/src/ImmsedBoundary.png",
     "Domain Decomposition Methods/Chapter2 Schwarz Iterative Algorithms/2.1 Background.md",
+    "Papers/Immersed Boundary Method",
+    "Papers",
+    "Domain Decomposition Methods/Chapter3 Shur Complement and Iterative Substructuring Algorithms/3.1 Background.md",
     "Domain Decomposition Methods/Chapter3 Shur Complement and Iterative Substructuring Algorithms",
     "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.2 Schwarz Framework.md",
     "Domain Decomposition Methods/src/Chapter2/MultisubdomainDecompositions.png",
@@ -166,11 +175,7 @@
     "Domain Decomposition Methods/src/Chapter1/BoundarySegments.png",
     "Domain Decomposition Methods/src/Chapter1/Boundary segments.png",
     "Domain Decomposition Methods/src/Chapter1",
-    "Domain Decomposition Methods/src",
-    "Domain Decomposition Methods/新建文件夹",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 11 Parallel Implementation/11.1 Introduction.md",
-    "Domain Decomposition Methods/Chapter1 Decomposition Frameworks",
-    "Domain Decomposition Methods",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.3 ILU Factorization Preconditioners.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.2 Jacobi, SOR and SSOR Preconditioners.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.1 Introduction.md",
