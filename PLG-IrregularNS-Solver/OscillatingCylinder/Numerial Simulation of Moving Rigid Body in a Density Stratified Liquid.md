@@ -131,17 +131,27 @@ $$
  &\left\{
  \begin{array}{l}
  \lVert\mathcal{V}_i(t^{(s)})\rVert\langle \mathbf{w}\rangle^{(s)}
- = \lVert\mathcal{V}_i(t_n)\rVert \langle\mathbf{w}\rangle^n + k\sum_{j=1}^{s-1} a_{s,j}\mathbf{Y}\lVert\mathcal{V}_i(t^{(s)})\rVert\\
- \lVert\mathcal{V}_i(t^{(s)})\rVert\langle\rho\rangle^{(s)}
- = \lVert\mathcal{V}_i(t^{n})\rVert\langle \rho\rangle^n + k\sum_{j=1}^{s-1} a_{s,j} 
+ = \lVert\mathcal{V}_i(t_n)\rVert \langle\mathbf{w}\rangle^n + k\sum_{j=1}^{s-1} a_{s,j}\mathbf{Y}\left(\langle\mathbf{w}\rangle^{(j)}, \langle \mathbf{u}\rangle^{(j)},\langle \rho\rangle^{(j)}, t^{(j)}\right)\\
+ \lVert\mathcal{V}_i(t^{(s)})\rVert\langle \rho\rangle^{(s)}
+ = \lVert\mathcal{V}_i(t^{n})\rVert\langle \rho\rangle^n + k\sum_{j=1}^{s-1} a_{s,j}\mathbf{Z}\left(\langle\mathbf{u}\rangle^{(j)}, \langle\rho\rangle^{(j)}, t^{(j)}\right),
  \end{array}
- \right. \tag{11c}
+ \right. \tag{11c}\\
+&\left\{
+\begin{array}{l}
+  \lVert\mathcal{V}_i(t^{n})\rVert\langle \mathbf{w}\rangle^{*}
+ = \lVert\mathcal{V}_i(t_n)\rVert \langle\mathbf{w}\rangle^n + k\sum_{j=1}^{n_s} b_j\mathbf{Y}\left(\langle\mathbf{w}\rangle^{(j)}, \langle \mathbf{u}\rangle^{(j)},\langle \rho\rangle^{(j)}, t^{(j)}\right)\\
+ \lVert\mathcal{V}_i(t^{n})\rVert\langle \rho\rangle^{n}
+ = \lVert\mathcal{V}_i(t^{n})\rVert\langle \rho\rangle^n + k\sum_{j=1}^{n_s} b_j\mathbf{Z}\left(\langle\mathbf{u}\rangle^{(j)}, \langle\rho\rangle^{(j)}, t^{(j)}\right),
+ \end{array}
+ \right.\tag{11d}\\
+ &\langle \mathbf{u}\rangle^{n+1} = \langle \mathbf{w}\rangle^{n+1},\tag{11e}\\
+ &\langle \mathbf{w}\rangle^{n+1} = \langle \mathbf{u}\rangle^{n+1},\tag{11f}\\
 \end{align}
 $$
 where
 $$
 \begin{align}
  \mathbf{Y}\left(\langle\mathbf{w}\rangle^{(j)}, \langle \mathbf{u}\rangle^{(j)},\langle \rho\rangle^{(j)}, t^{(j)}\right) &= \lVert \mathcal{V}_i(t^(j))\rVert\cdot\left(-\mathrm{Ri}\langle \rho^{(j)}\hat{\mathbf{k}}\rangle - \mathbf{C}\langle \mathbf{u^{(j)}u^{(j)}}\rangle - \mathbf{G}\langle q^{(j)}\rangle + \frac{1}{\mathrm{Re}}\mathbf{L}\langle\mathbf{w}^{(j)}\rangle\right) + \mathbf{f}(t^{(j)}, \mathbf{v}_b^{(j)}, \mathbf{w}^{(j)}),\tag{12a}\\
- \mathbf{Z}\left(\langle\mathbf{u}\rangle^{(j)}, \langle\rho\rangle^{(j)}, t^{(j)}) &= \lVert\mathcal{V}_i(t^{(j)})\rvert\left(-\mathbf{A}\langle\mathbf{u}\rho\rangle^{(j)} + \langle u_1\rangle^{(j)} + \frac{1}{\mathrm{Pe}}\mathbf{L}\langle\rho\rangle^{(j)}\right) + \mathbf{f}(t^{(j)}, \mathbf{v}_b^{(j)}, \rho^{(j)}),
+ \mathbf{Z}\left(\langle\mathbf{u}\rangle^{(j)}, \langle\rho\rangle^{(j)}, t^{(j)}\right) &= \lVert\mathcal{V}_i(t^{(j)})\rvert\left(-\mathbf{A}\langle\mathbf{u}\rho\rangle^{(j)} + \langle u_1\rangle^{(j)} + \frac{1}{\mathrm{Pe}}\mathbf{L}\langle\rho\rangle^{(j)}\right) + \mathbf{f}(t^{(j)}, \mathbf{v}_b^{(j)}, \rho^{(j)}),
  \end{align}
 $$
