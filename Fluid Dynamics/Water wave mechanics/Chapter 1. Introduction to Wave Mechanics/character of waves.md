@@ -1,0 +1,9 @@
+ The important parameters to describe wavesare their length and height, and the water depth over which they are propagating.  All other parameters, such as wave-induced water velocities and acceleerations, can be determined theoretically from these quantities.
+![[Wave characteristics.png]]
+In Figure 1.1, a two-dimensional schematic of a wave propagating in the $x$ direction is shown. The lenght of the wave, $L$, is the horizontal distance between two successive wave crests, or the high points on a wave, or alternatively the distance beween two wave throughs. The wave length is related to the water depth $h$ and wave period $T$, which is teh time required for two successive crests or troughs to pass a particular point. As the wave, then, must move a distance $L$ in time $T$, the speed of the wave, called the celerity, $C$, is defined as $C=L/T$. While the wave form travels with celerity $C$, the water that comprises the wave does not translate in the direction of the wave.
+
+Waves in nature rarely appear to look exactly the samme from wave to wave, nor do they always propagate in the same direction. If adevice to measure the water surface elevation, $\eta$, as a function of time was placed on a platform in the middle of the ocean, it might obtain a record such as that shown in Figure 1.2
+![[Wave characteristics.png]]
+This sea can be seen to be a superposition of a large number of sinusoids going in different directions.
+
+There is a great amount of randomness in the sea, and statistical techniques need to be brought to bear. Fortunately, very large waves or, alternatively, waves in shallow water appear to be more regular than small waves or those in deeper water, and not so random.

@@ -1,0 +1,1 @@
+Body force acts throughout the volume of the cube. These forces include gravity, magnetic and other forces that act directly on each individual particle in the volume under consideration.

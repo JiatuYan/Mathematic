@@ -1,0 +1,1 @@
+Surface forces include [[Hydrostatic Pressure|pressure]] and [[Shear Stresses|shear stresses]] which act on the surface of the volume.
