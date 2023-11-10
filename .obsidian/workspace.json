@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Shear Stresses.md",
+                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Basic Vector Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Shear Stresses.md",
+                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Basic Vector Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Shear Stresses.md",
+                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Basic Vector Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Shear Stresses.md"
+                "file": "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Basic Vector Analysis.md"
               }
             }
           },
@@ -158,10 +158,13 @@
   },
   "active": "424ed9e348035a96",
   "lastOpenFiles": [
+    "Analysis/Stokes Theorem.md",
+    "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Basic Vector Analysis.md",
+    "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Shear Stresses.md",
+    "Analysis",
     "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/src/Shear and normal stresses.png",
     "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Hydrostatic Pressure.md",
     "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Body Forces.md",
-    "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Shear Stresses.md",
     "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Surface Forces.md",
     "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Conservation of Mass.md",
     "Fluid Dynamics/Water wave mechanics/Chapter 2. A Review of Hydrodynamics and Vector Analysis/Surface Stresses on a Particle.md",
@@ -184,7 +187,6 @@
     "PLG-IrregularNS-Solver/OscillatingCylinder/Numerial Simulation of Moving Rigid Body in a Density Stratified Liquid.md",
     "().md",
     "Papers/Immersed Boundary Method/Mittal 2005 Immersed Boundary Methods.md",
-    "PLG-IrregularNS-Solver/OscillatingCylinder",
     "Papers/Immersed Boundary Method/ImmsedBoundary.png",
     "src/Untitled.md",
     "Domain Decomposition Methods/src/ImmsedBoundary 1.png",
@@ -195,14 +197,12 @@
     "Domain Decomposition Methods/src/Chapter2/MultisubdomainDecompositions.png",
     "Domain Decomposition Methods/src/Chapter2/Snipaste_2023-06-11_15-55-30.png",
     "Domain Decomposition Methods/src/Snipaste_2023-06-11_15-55-30.png",
-    "Domain Decomposition Methods/src/Chapter1/Snipaste_2023-06-11_15-55-30.png",
     "Domain Decomposition Methods/Chapter1 Decomposition Frameworks/1.1 Hybrid Formulations.md",
     "1.1 Hybrid Formulations![[BoundarySegments.png.md",
     "1.2 Schwarz Framework^.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 11 Parallel Implementation/11.1 Introduction.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.3 ILU Factorization Preconditioners.md",
     "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.2 Jacobi, SOR and SSOR Preconditioners.md",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.1 Introduction.md",
-    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 1 Background in Linear Algebra/1.10 Nonnegative Matrices, M-Matrices.md"
+    "Matrix Computation/Iterative Methods for Sparse Linear Systems/Chapter 10 PreconditioningTechniques/10.1 Introduction.md"
   ]
 }
