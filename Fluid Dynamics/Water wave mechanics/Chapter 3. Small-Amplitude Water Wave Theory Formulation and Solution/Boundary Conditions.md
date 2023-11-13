@@ -4,6 +4,9 @@ At any boundary, whether it is fixed,
   which is free to deform under the influence of forces, 
   certain physical conditions must be satisfied by the fluid velocities.
 # Kinematic boundary conditions
+
+^6b8448
+
 The conditions on the water particle kinematics are called **kinematic boundary conditions**.
 At any surface or fluid interface, 
   it is clear that there must be no flow accross the interface.
@@ -47,6 +50,9 @@ If the surface does not change with time, then $\mathbf{u}\cdot \mathbf{n} = 0$;
   that is, the velocity component normal to the surfaceis zero.
 
 ## The Bottom Boundary Condition(BBC)
+
+^0efc03
+
 In general, the lower boundary of our region of interest
   is described as $z=-h(x)$ 
   for a two-domensional case
@@ -78,6 +84,9 @@ w = -u\frac{\mathrm{d}h}{\mathrm{d}x}\qquad \mathrm{on}\ z = -h(x).
 $$
 
 ## Kinematic Free Surface Boundary Condition(KFSBC). 
+
+^ff35da
+
 The free surface of a wave 
   can be described as $F(x, y, z, t) = z - \eta(x, y, t)=  0$,
   where $\eta(x, y, t)$ is the displacement 
@@ -130,16 +139,16 @@ In the case of wind blowing
   to couple that wind field 
   with the kinematics of the wave.
 1. The wave and wind field would be interdependent
-      and the wave motion would be termed "coupled".
+      and the wave motion would be termed **"coupled"**.
 2. If the wave were driven by,
       but did not affect the applied surface pressure,
-      this would be a case of "forced" wave motion
+      this would be a case of **"forced"** wave motion
       and again the Bernoulli equation would serve
       to express the boundary condition.
 3. For the simpler case 
       that is explored in some detail in this chapter,
       the pressure will be considered to be uniform
-      and hence a case of "free" wave motion exists.
+      and hence a case of **"free"** wave motion exists.
 
 If the wave length are very short (on the order of several centimeters),
   the surface is no longer "free".
@@ -157,3 +166,41 @@ $$
   where $\sigma'$ is the coefficient of surface tension.
 The equation above is of use 
   in examination of capillary water waves.
+
+## Lateral Boundary Conditions
+The boundary conditions for the bottom and upper surfacces have been discussed.
+In order to complete specification of the boundary value problem,
+  conditions must also be specified on the remaining lateral boundaries.
+
+If the wavers are propagating in one direction (say the $x$ direction),
+  conditions are two-dimensional 
+  and then "no-flow" conditions are appropriate
+  for the velocities in the $y$ direction.
+The boundary conditions to be applied
+  in the $x$ direction
+  depend on the problem under consideration.
+For example, in the classical wavemaker problem, 
+  the wave motion results from a prescribed disturbance of
+  an object at $x=0$.
+
+Take the following figure as an example.
+![[wavemaker.png]]
+Consider a vertical paddle acting as a wavemaker in a wave tank.
+If the displacement of the paddle
+  may be described as $x=S(z, t)$, 
+  the [[#^ff35da|kinematic boundary condition]] is 
+$$
+\mathbf{u}\cdot\mathbf{n} = \frac{\partial S(z, t)}{\partial t}\bigg/\sqrt{1 + \left(\frac{\partial S}{\partial z}\right)^2},
+$$
+  where
+$$
+\mathbf{n} = \frac{1\mathbf{i} - \frac{\partial S}{\partial z}\mathbf{k}}{\sqrt{1 + \left(\partial S/\partial z\right)^2}}.
+$$
+This requires that the fluid particles at the moving wall follow the wall.
+Two different conditions occur
+  at the other possible lateral boundaries:
+  at a fixed beach as shown at the right side of the figure(a) above,
+  where a [[#^0efc03|kinematic condition]] would be applied,
+  or as in the figure(b),
+  where a "radiation" boundary condition is applied
+  which requires that only outgoing waves occur at infinity.
