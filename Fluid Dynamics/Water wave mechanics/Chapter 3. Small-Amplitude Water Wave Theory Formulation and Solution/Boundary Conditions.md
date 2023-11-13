@@ -99,6 +99,9 @@ $$
 $$
 
 # Dynamic Free Surface Boundary Condition.
+
+^bed3ed
+
 A distinuighing feature of fixed (in space) surfaces
   is that they can support pressure variations.
 However, surfaces that are "free",
