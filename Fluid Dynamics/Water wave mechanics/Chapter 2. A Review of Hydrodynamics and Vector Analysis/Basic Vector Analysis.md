@@ -1,6 +1,6 @@
 We consider in a three-dimension Cartesian coordinate system. For example, the vector $\mathbf{a}$ can be represented as 
 $$
-\mamthbf{a} = a_x\mathbf{i} + a_y\mathbf{j} + a_z\mathbf{k},
+\mathbf{a} = a_x\mathbf{i} + a_y\mathbf{j} + a_z\mathbf{k},
 $$
 where $a_x$, $a_y$ and $a_z$ are the projections of $\mathbf{a}$ on the $x$, $y$ and $z$ axes.
 
@@ -51,6 +51,9 @@ F = \int_{P_0}^{P_1}\mathbf{a}\cdot \mathrm{d}l
 $$
 
 # 7. Velocity Potential
+
+^9c8253
+
 Let us consider a vector velocity $\mathbf{u}$ and define the value of the line integral of $\mathbf{u}$ as $-\phi$:
 $$
 -\phi = \int_{C}\mathbf{u}\cdot \mathrm{d}\mathbf{l} = \int_{C}(u\mathrm{d}x + v\mathrm{d}y + w\mathrm{z}).
@@ -94,13 +97,19 @@ $$
 Therefore, there can be no change in the vorticity or the rotation of the fluid with time.
 
 # 8. Stream Function
+
+^dd1b99
+
 Let us define the line integral composed of the velocity component perpendicular to the line element in two dimensions.
 $$
 \psi = \int_{P_0}^{P_1}\mathbf{u}\cdot\mathbf{n}\mathrm{d}l,
 $$
 where $\mathrm{d}l = \lvert \mathrm{d}\mathbf{l}\rvert$. Consideration of the integrand above will demonstrate that $\psi$ represents the amount of fluid crossing the line $C$ between points $P_0$ and $P_1$.
 
-The condition for independence of path is 
+Independence of path requires 
+$$
+w = \frac{\partial \psi}{\partial x}\qquad u =- \frac{\partial\psi}{\partial z}.
+$$Thus the condition for it is 
 $$
 \frac{\partial w}{\partial z} + \frac{\partial u}{\partial x} = 0,
 $$
